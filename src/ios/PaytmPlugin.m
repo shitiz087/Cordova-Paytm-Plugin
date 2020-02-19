@@ -41,6 +41,7 @@
     
     orderDict[@"MID"] = paytm_merchant_id;
     orderDict[@"ORDER_ID"] = orderId;
+    orderDict[@"REQUEST_TYPE"] = @"DEFAULT";
     orderDict[@"CUST_ID"] = customerId;
     orderDict[@"INDUSTRY_TYPE_ID"] = paytm_ind_type_id;
     orderDict[@"CHANNEL_ID"] = paytm_channelID;
